@@ -1,0 +1,12 @@
+server:
+    port: 8081
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: nicolal!
+        url: jdbc:mysql://212.131.189.19:30016/nicolall
+        username: nicolal
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true

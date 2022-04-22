@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: GestioneCorso
+    cloud:
+        config:
+            uri: http://localhost:8083
+    mvc:
+        pathmatch:
+            matching-strategy: ant_path_matcher

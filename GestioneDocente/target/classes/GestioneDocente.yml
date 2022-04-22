@@ -1,0 +1,12 @@
+server:
+    port: 8081
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: antoniom!
+        url: jdbc:mysql://212.131.189.19:30016/antoniom
+        username: antoniom
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
